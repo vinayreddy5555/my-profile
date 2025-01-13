@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info & Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Homepage</h1>
+    </header>
+        <section>
+          <form>
+            <div class="container">
+        
+            <h2>Personal Info</h2>
+            <div class="form-group">
+                <label for="firstName">Name:</label>
+                <input type="text" id="firstName" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <label for="middleInitial">M. Initial:</label>
+                <input type="text" id="middleInitial">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName">
+            </div>
+            <div class="form-group">
+                <label for="country">I am from:</label>
+                <select id="country">
+                    <option value="">Select Country</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="india">India</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="matriculation">Matriculation:</label>
+                <input type="text" id="matriculation">
+            </div>
+            <div class="form-group">
+                <label for="semester">Semester:</label>
+                <input type="text" id="semester">
+            </div>
+            <div class="form-group">
+                <label for="program">Program:</label>
+                <select id="program">
+                    <option value="">Select Program</option>
+                    <option value="cs">Computer Science</option>
+                    <option value="it">Information Technology</option>
+                    <option value="eng">Engineering</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="started">Started in:</label>
+                <input type="date" id="started">
+            </div>
+
+            <h2>Graduate Program</h2>
+            <p>I've heard this graduate program from:</p>
+            <input type="checkbox" id="media" value="media"> <label for="media">Media</label><br>
+            <input type="checkbox" id="ad" value="ad"> <label for="ad">Ad</label><br>
+            <input type="checkbox" id="agency" value="agency"> <label for="agency">Agency</label><br>
+            <input type="checkbox" id="other" value="other"> <label for="other">Other</label><br>
+
+            <h2>Future Plans</h2>
+            <p>When I finish my study, I will:</p>
+            <input type="radio" id="return" name="future" value="return"> <label for="return">Return to my country</label><br>
+            <input type="radio" id="job" name="future" value="job"> <label for="job">Find a job in Europe</label><br>
+            <input type="radio" id="training" name="future" value="training"> <label for="training">Do the practical training and then decide</label><br>
+
+            <h2>Feedback</h2>
+            <label for="feedback">Feedback for the course:</label>
+            <p>During this course, I had the privilege of gaining comprehensive insights into several fundamental and advanced concepts that are pivotal in the field of software development and web technologies. The curriculum covered key topics such as the Software Development Life Cycle (SDLC), the intricacies of working with C programming—particularly pointers and file handling, and the implementation of linked lists. Additionally, the course introduced foundational web technologies, including HTML, CSS, and JavaScript, which provided me with a solid understanding of web development principles.
+            </p>
+            <p>I genuinely appreciate the depth of knowledge and practical expertise I was able to acquire throughout this learning experience. It has significantly enriched my understanding of both traditional programming paradigms and contemporary web technologies. However, upon reflection, I believe that while C is an excellent language for understanding low-level programming concepts, its utility at this stage may be somewhat limited. Considering the industry's current demands and the prominence of cloud computing and other modern domains, focusing on newer, more versatile programming languages like Golang might be more beneficial. Golang, with its efficiency and compatibility with contemporary use cases such as cloud-native applications, seems better suited to meet the challenges of today's technology landscape.
+            </p> 
+            <button type="submit">Submit</button>
+         </section>
+        
+         <section>
+            <div class="container">
+            <h2>SDLC Methodologies</h2>
+            <p>I will write a paragraph for each methodology of SDLC. My suggestions and reasons are:</p>
+               <li>
+                 Agile is a flexible and iterative approach to software development and project management. It focuses on collaboration, adaptability, and delivering value to customers through small, incremental steps instead of completing an entire project at once. This approach allows teams to quickly respond to changes in requirements, ensuring that the final product meets customer needs.
+                 <br><strong>How Agile Works:</strong>
+                 <ul>
+                    <li>Iterative Development: Work is broken into small cycles called iterations. Each iteration delivers a working part of the software.</li>
+                    <li>Frequent Feedback: After each iteration, feedback is collected from stakeholders to refine the product.</li>
+                    <li>Prioritized Backlog: Tasks and features are listed in a backlog and prioritized to ensure the most important work is done first.</li>
+                    <li>Regular Meetings: Teams hold daily stand-ups and sprint reviews to stay aligned and address roadblocks.</li>
+                 </ul>
+                </li>
+                <li>
+                    SPIRAL: The Spiral model enables project teams to create a highly customized product. It consists of four phases—planning, risk analysis, engineering, and evaluation—repeatedly iterated until the project is complete. The main distinction between the Spiral model and other Software Development Life Cycle (SDLC) methodologies is its emphasis on risk analysis. With each iteration, the model focuses on identifying and mitigating potential risks. Additionally, it prioritizes customer feedback, and because prototypes are built incrementally, cost estimation becomes more manageable.
+                </li>
+                <li>
+                    Iterative: In the Iterative model, development teams construct software individually, identifying further requirements as they progress. Each new phase results in a more refined software version under development. The Iterative approach allows developers and testers to detect functional or design flaws early on and easily adapt to the changing needs of the client. Like the Spiral model, the Iterative approach is well-suited for larger projects and requires more management and oversight to be effective.
+                </li>
+                   
+                <p>In this course, I have learned the following:</p>
+        <ul>
+            <li>SDLC</li>
+            <li>C Programming Language</li> 
+            <li>FrontEnd</li>
+            <li>Linear DSA</li>
+        </ul>
+
+         </section>
+              
+
+         <section>
+            <div class="container">
+            <h2>CSS and JavaScript</h2>
+            <p>I have used CSS in this webpage and there are 3 ways to include CSS:</p>
+            <ul>
+                <li> Inline CSS: Write CSS directly in the HTML element using the <code>style</code> attribute.<br>
+                    Example: <code>&lt;h1 style=&quot;color: red;&quot;&gt;Hello&lt;/h1&gt;</code></li>
+                <li>Internal CSS: Include CSS in a <code>&lt;style&gt;</code> tag inside the HTML <code>&lt;head&gt;</code>.<br>
+                    Example: <code>&lt;style&gt; h1 { color: blue; } &lt;/style&gt;</code></li>
+                <li> External CSS: Link an external stylesheet using the <code>&lt;link&gt;</code> tag.<br>
+                    Example: <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;</code></li>
+            </ul>
+            <p>The reasons CSS is used in a webpage are:</p>
+            <ol>
+                <li>Improves the visual appearance of the webpage by styling elements like colors, fonts, and layouts.</li>
+                <li>Separates HTML from design CSS, making the code easier to maintain and update.</li>
+                <li>Ensures a consistent look and feel across different pages of a website.</li>
+            </ol>
+            <p>I have also used JavaScript in webpage development. The main reasons are as follows:</p>
+            <ul>
+                <li> To make the webpage interactive (e.g., responding to button clicks).</li>
+                <li> To collect and display user input dynamically on a new page.</li>
+                <li> To validate form inputs for better user experience and error prevention.</li>
+                <li> To allow users to download the form data for future reference.</li>
+                <li> To validate and handle user input effectively for secure form submissions.</li>
+            </ul>
+        </div>
+        </section>
+         
+        <section>
+            <div class="container">
+             <p>I have done this project myself and accept the consequences if found otherwise.</p>
+            <label for="email">Email:</label>
+            <p>100001799@stud.srh-university.de</p>
+        </div>
+        </section>
+
+           
+        </form>
+    </div>
+</body>
+</html>
